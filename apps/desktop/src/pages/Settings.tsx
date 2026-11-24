@@ -173,8 +173,8 @@ function About() {
         <div class="big">GlassCore <span class="dim small">v{info.data()?.version ?? "0.1.0"}</span></div>
         <p class="small muted" style={{ "margin-top": "8px" }}>A local-first Windows desktop command centre: ultrawide window zones, system observability, hardware lighting and cooling, tasks and user-approved automation.</p>
         <div class="row wrap" style={{ "margin-top": "14px" }}>
-          <button class="btn" onClick={() => openUrl("https://github.com/aidanfarrugia10/glasscore")}><Icon name="external" size={14} />Source code</button>
-          <button class="btn" onClick={() => openUrl("https://github.com/aidanfarrugia10/glasscore/security/policy")}>Report a security issue</button>
+          <button class="btn" onClick={() => openUrl("https://github.com/aidanfarrugia10/glasscore-desktop")}><Icon name="external" size={14} />Source code</button>
+          <button class="btn" onClick={() => openUrl("https://github.com/aidanfarrugia10/glasscore-desktop/security/policy")}>Report a security issue</button>
         </div>
       </Card>
       <Card title="Open-source components" icon="layers">
